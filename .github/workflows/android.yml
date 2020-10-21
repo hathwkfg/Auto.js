@@ -1,6 +1,9 @@
 name: Android CI
 
-on: 
+on:
+  push:
+     branches: 
+       - master 
   schedule:
     - cron: 12 7 * * *
   
